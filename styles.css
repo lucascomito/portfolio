@@ -1,3 +1,6 @@
+
+
+
 #videoBG {
   position: absolute;
   z-index: -1;
@@ -29,7 +32,7 @@
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 header {
   height: 65px;
@@ -84,7 +87,7 @@ header {
 
 .dos {
   background-color: #ffffff;
-  height: 900px;
+  height: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,8 +95,9 @@ header {
   color: #010101;
   padding-left: 20%;
   padding-right: 20%;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 18px;
 }
 .aptitudes {
   width: 30%;
@@ -125,7 +129,7 @@ header {
   color: #f2f2f2;
 }
 .proyectos {
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
 }
@@ -133,7 +137,7 @@ header {
   text-align: center;
   width: 30%;
   border: solid #f2f2f2 1px;
-  border-radius: 10px;
+  border-radius: 0px;
   padding: 10px;
 }
 .card img {
@@ -145,22 +149,43 @@ footer a {
 }
 
 .red-social {
-  height: 60px;
+  height: 80px;
   background-color: #f2f2f2;
   border-radius: 50px;
+  margin: 0 20px 0 5px;
+}
+
+.red-social:hover {
+    height: 90px;
+    transition: 200ms;
+}
+
+.titulos {
+    font-size: 35px;
+    color: #7f2b7c
+}
+
+.link {
+    font-size: 20px;
+    background-color: #7b1fa2;;
+}
+
+.link:hover {
+    font-size: 20px;
+    background-color: #bb8ad0;
 }
 
 footer {
-  background-color: #424242;
+  background-color: #31163d;;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   color: #f2f2f2;
-  height: 250px;
+  height: 200px;
 }
 .contacto {
-  width: 30%;
+  width: 20%;
   display: flex;
   justify-content: center;
 }
